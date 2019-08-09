@@ -35,7 +35,6 @@ def get_team(team_id):
 def get_player(player_id, player_name):
     return 'This route will return specific player photo and bio when name or id provided.'
 
-
 if __name__ == '__main__':
     app.secret_key = 'no_password'
     app.debug = True
